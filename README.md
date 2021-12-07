@@ -1,8 +1,8 @@
 # React Tutorial - Fundamentals.
 
-## Desarrollo del tutorial del gran Jonh Smilga, Coding addict,
+## Desarrollo del tutorial del gran Jonh Smilga, Coding addict.
 
-### https://youtu.be/iZhV0bILFb0
+### enlace del video: https://youtu.be/iZhV0bILFb0
 
 ### Muchas gracias a John por tan impresionante y util aporte para los que iniciamos en el mundo de JavaScript
 

@@ -33,4 +33,11 @@ body {
 
 .book h1 {
   margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.book h4 {
+  color: dodgerblue;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
 }

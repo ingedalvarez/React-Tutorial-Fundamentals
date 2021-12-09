@@ -12,12 +12,13 @@ const author = 'Delia Owens';
 function BookList() {
   return (
     <section className="booklist">
-      <Book />
+      <Book job="developer" salary={10} />
     </section>
   );
 }
 
-const Book = () => {
+const Book = (props) => {
+  console.log(props);
   return (
     <article className="book">
       <img src={img} alt={title} />

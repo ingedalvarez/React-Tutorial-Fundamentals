@@ -20,23 +20,11 @@ function BookList() {
 const Book = () => {
   return (
     <article className="book">
-      <Image />
-      <Title />
-      <Author />
+      <img src={img} alt={title} />
+      <h1>{title}</h1>
+      <h4>{author}</h4>
     </article>
   );
-};
-
-const Image = () => {
-  return <img src={img} alt={title} />;
-};
-
-const Title = () => {
-  return <h1>{title}</h1>;
-};
-
-const Author = () => {
-  return <h4>{author}</h4>;
 };
 
 ReactDom.render(<BookList />, document.getElementById('root'));
